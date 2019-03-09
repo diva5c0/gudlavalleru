@@ -1,0 +1,48 @@
+.header{
+	background: #337ab7;
+	color: #fff;
+	padding: 1%;
+	margin-bottom: 2%;
+}
+
+/*Flex parent*/
+.parent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*Child*/
+.child{
+	width: 20%;
+	border: 1px solid #337ab7;
+	margin: 1%;
+	padding: 1%;
+	box-shadow: 8px 8px 6px -8px #000;
+}
+
+.child img{
+	display: block;
+	width: 60%;
+	height: auto;
+	margin: auto;
+}
+
+
+
+
+.child a{
+	text-decoration: none;
+	background: #337ab7;
+	display: block;
+	margin: 1%;
+	padding: 1%;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+
